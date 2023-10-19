@@ -1,4 +1,7 @@
 use proconio::input;
 fn main() {
-    input! {}
+    input! {
+        n: u32
+    }
+    println!("{:?}", n * n);
 }
