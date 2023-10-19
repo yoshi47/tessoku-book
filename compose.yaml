@@ -1,0 +1,7 @@
+services:
+  tessoku:
+    build: .
+    tty: true
+    volumes:
+      - ./:/work
+    # working_dir: /work/tessoku-book
